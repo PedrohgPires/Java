@@ -1,0 +1,8 @@
+Programa ExemploFor
+var
+   i: inteiro
+inicio
+   para i = 1 até 5  faça
+      escreva("Repetição: ", i)
+   fim_para
+fim.

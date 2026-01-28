@@ -1,0 +1,2 @@
+1-Para i=1 até 5 faça
+  2-Escreva ("Repetição:"+i)
