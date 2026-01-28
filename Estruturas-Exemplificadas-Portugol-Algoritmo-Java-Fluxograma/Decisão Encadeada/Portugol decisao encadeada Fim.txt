@@ -1,0 +1,22 @@
+programa DecisaoEncadeadaComIf
+var
+   idade: inteiro
+
+inicio
+   escreva("Digite sua idade: ")
+   leia(idade)
+
+   se (idade >= 18) Então
+      se (idade >= 65) Então
+         escreva("Você é um idoso.")
+      senão
+         escreva("Você é maior de idade.")
+      fim_se
+   senão
+      se (idade >= 12) Então
+         escreva("Você é um adolescente.")
+      senão
+         escreva("Você é uma criança.")
+      fim_se
+   fim_se
+fim.

@@ -1,0 +1,11 @@
+1-Leia a idade (idade)
+2-Se (idade >= 18) então
+   3-Se (idade >= 65) então
+      4-Apresente "Você é um idoso."
+   5-Senão
+      6-Apresente "Você é maior de idade."
+7-Senão
+   8-Se (idade >= 12) então
+      9-Apresente "Você é um adolescente."
+   10-Senão
+      11-Apresente "Você é uma criança."
