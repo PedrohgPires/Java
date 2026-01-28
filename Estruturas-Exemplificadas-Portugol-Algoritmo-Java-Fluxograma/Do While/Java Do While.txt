@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class AdivinhaNumero {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int numeroSecreto = 7; // Número que o usuário deve acertar
+        int tentativa;
+
+        do {
+            System.out.print("Tente adivinhar o número secreto (1 a 10): ");
+            tentativa = scanner.nextInt();
+
+            if (tentativa != numeroSecreto) {
+                System.out.println("Errado! Tente novamente.");
+            }
+        } while (tentativa != numeroSecreto);
+
+        System.out.println("Parabéns! Você acertou o número.");
+        scanner.close();
+    }
+}

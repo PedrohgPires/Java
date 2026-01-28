@@ -1,0 +1,14 @@
+programa AdivinhaNumero
+var
+    numeroSecreto, tentativa: inteiro
+inicio
+    numeroSecreto <- 7
+    faça
+        escreva("Tente adivinhar o número secreto (1 a 10): ")
+        leia(tentativa)
+        se (tentativa != numeroSecreto) então
+            escreva("Errado! Tente novamente.")
+        fim_se
+    enquanto (tentativa != numeroSecreto)
+    escreva("Parabéns! Você acertou o número.")
+fim.

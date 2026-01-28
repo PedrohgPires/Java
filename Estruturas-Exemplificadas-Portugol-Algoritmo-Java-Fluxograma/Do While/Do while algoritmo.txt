@@ -1,0 +1,7 @@
+1-Inicializar o numero secreto (numeroSecreto = 7)
+2-Faça
+   3-Leia a tentativa (tentativa)
+   4-Se (tentativa != numeroSecreto)
+      5-Escreva('Errado!, tente novamente')
+6-Enquanto(tentativa != numeroSecreto)
+7-Escreva('Parabens! você acertou o número')
