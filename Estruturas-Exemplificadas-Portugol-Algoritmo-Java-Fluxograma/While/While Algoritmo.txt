@@ -1,0 +1,5 @@
+1-Inicializar a variável (numero ← 0)
+2-Enquanto (numero !=  5) faça do passo 3 ao 4 
+  3-Escreva ('Digite um número (5 para parar):') 
+  4-Leia o numero(numero)
+5-Escreva ('Fim do loop.')
