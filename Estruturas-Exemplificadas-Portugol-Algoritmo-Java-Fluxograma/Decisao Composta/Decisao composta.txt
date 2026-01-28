@@ -1,0 +1,5 @@
+1-Leia a idade(idade)
+2-Se (idade>=18)
+ 3-Apresente("Maior de Idade")
+4-Se não
+ 5-Apresente("Menor de Idade")

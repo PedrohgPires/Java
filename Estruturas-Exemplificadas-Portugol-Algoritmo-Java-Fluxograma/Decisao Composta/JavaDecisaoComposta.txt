@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class EstruturaDeDecisaoComLogica {
+    public static void main(String[] args) {
+        // Criando um Scanner para capturar dados do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        // Pedindo ao usuário para inserir sua idade
+        System.out.print("Digite a sua idade: ");
+        int idade = scanner.nextInt();
+
+        // Verificando se a pessoa é maior de idade ou menor de idade
+        if (idade >= 18) {
+            System.out.println("Você é maior de idade.");
+        } else {
+            System.out.println("Você é menor de idade.");
+        }
+    }
+}

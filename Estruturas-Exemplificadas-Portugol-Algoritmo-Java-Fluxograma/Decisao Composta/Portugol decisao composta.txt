@@ -1,0 +1,11 @@
+Programa EstruturaDeDecisaoComLogica
+var
+   idade: inteiro
+inicio
+   leia(idade)
+   se (idade >= 18) Então
+      escreva("Você é maior de idade")
+   senão
+      escreva("Você é menor de idade")
+   fim_se
+fim.
