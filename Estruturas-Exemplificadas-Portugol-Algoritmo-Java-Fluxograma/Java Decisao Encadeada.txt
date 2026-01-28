@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class DecisaoEncadeadaComIf {
+    public static void main(String[] args) {
+        // Criando um Scanner para capturar a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        // Pedindo ao usuário para inserir a idade
+        System.out.print("Digite sua idade: ");
+        int idade = scanner.nextInt();
+
+        // Decisão encadeada com if dentro de if
+        if (idade >= 18) {
+            // Se for maior ou igual a 18, checa se é maior ou igual a 65 (idoso)
+            if (idade >= 65) {
+                System.out.println("Você é um idoso.");
+            } else {
+                System.out.println("Você é maior de idade.");
+            }
+        } else {
+            // Se for menor que 18, checa se é maior ou igual a 12 (adolescente)
+            if (idade >= 12) {
+                System.out.println("Você é um adolescente.");
+            } else {
+                System.out.println("Você é uma criança.");
+            }
+        }
+    }
+}
