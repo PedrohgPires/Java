@@ -1,0 +1,17 @@
+programa Matriz
+var
+   matriz: inteiro[3,3]
+   i, j: inteiro
+inicio
+     para i = 0 até 2 faça
+       para j = 0 até 2 faça
+         escreva("Matriz["i"]["j"]: ")
+         leia(matriz[i, j])
+      fim_para
+   fim_para
+para i = 0 até 2 faça
+      para j = 0 até 2 faça
+         escreva(matriz[i, j], "/t")
+      fim_para
+   fim_para
+fim

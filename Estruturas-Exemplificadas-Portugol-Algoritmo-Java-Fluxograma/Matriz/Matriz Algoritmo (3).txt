@@ -1,0 +1,10 @@
+
+
+1-Inicializar a matriz (matriz[3][3])
+2-Para i < 3 faça
+   5-Para j < 3 faça
+      6-Leia o valor da matriz (matriz[i][j])
+7-Para i < 3 faça
+   8-Para j < 3 faça
+      9-Apresente(matriz[i][j])
+

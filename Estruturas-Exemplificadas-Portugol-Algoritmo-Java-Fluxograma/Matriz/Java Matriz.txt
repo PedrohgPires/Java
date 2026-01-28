@@ -1,0 +1,30 @@
+package project;
+
+import java.util.Scanner;
+
+public class matriz {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Criando uma matriz 3x3
+        int[][] matriz = new int[3][3];
+        
+        // Preenchendo a matriz com números fornecidos pelo usuário
+        System.out.println("Digite os 9 números para preencher a matriz 3x3:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("Matriz[" + i + "][" + j + "]: ");
+                matriz[i][j] = scanner.nextInt();
+            }
+        }
+        
+        // Exibindo a matriz
+        System.out.println("\nA matriz preenchida é:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(matriz[i][j] + "\t");
+            }
+            System.out.println();
+        }
+    }
+}
