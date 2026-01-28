@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class CalculaIdade {
+    public static void main(String[] args) {
+        // Criando um Scanner para capturar a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        // Pedindo para o usuário digitar o ano atual
+        System.out.print("Digite o ano atual: ");
+        int anoAtual = scanner.nextInt();
+
+        // Pedindo para o usuário digitar o ano de nascimento
+        System.out.print("Digite o seu ano de nascimento: ");
+        int anoNascimento = scanner.nextInt();
+
+        // Calculando a idade
+        int idade = anoAtual - anoNascimento;
+
+        // Exibindo a idade calculada
+        System.out.println("Sua idade é: " + idade + " anos.");
+    }
+}

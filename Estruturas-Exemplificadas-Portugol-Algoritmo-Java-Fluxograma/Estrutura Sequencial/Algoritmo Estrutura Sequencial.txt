@@ -1,0 +1,4 @@
+1- Leia o ano atual (anoAtual)
+2- Leia o ano de nascimento (anoNascimento)
+3- Calcule a idade (idade <- (anoAtual - anoNascimento))
+4- Apresente ("Sua idade é: " + idade + " anos.")
