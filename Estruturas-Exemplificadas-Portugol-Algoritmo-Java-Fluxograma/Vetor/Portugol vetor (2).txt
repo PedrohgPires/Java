@@ -1,0 +1,22 @@
+programa VetorNotas
+var
+   notas: vetor[5] de real
+   i: inteiro
+   soma, media: real
+inicio
+   escreva("Digite as 5 notas do aluno:\n")
+   para i ← 0 até 4 faça
+      escreva("Nota ", i + 1, ": ")
+      leia(notas[i])
+   fim_para
+   soma <- 0
+   para i <- 0 até 4 faça
+      soma ← soma + notas[i]
+   fim_para
+   media <- soma / 5
+   escreva("\nNotas digitadas:\n")
+   para i <- 0 até 4 faça
+      escreva("Nota ", i + 1, ": ", notas[i], "\n")
+   fim_para
+   escreva("Média do aluno: ", media:2:2, "\n")
+fim.

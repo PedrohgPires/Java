@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class VetorNotas {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Criando um vetor para armazenar 5 notas
+        double[] notas = new double[5];
+
+        // Lendo as notas do usuário
+        System.out.println("Digite as 5 notas do aluno:");
+        for (int i = 0; i < notas.length; i++) {
+            System.out.print("Nota " + (i + 1) + ": ");
+            notas[i] = scanner.nextDouble();
+        }
+
+        // Calculando a média das notas
+        double soma = 0;
+        for (double nota : notas) {
+            soma += nota;
+        }
+        double media = soma / notas.length;
+
+        // Exibindo as notas e a média final
+        System.out.println("\nNotas digitadas:");
+        for (int i = 0; i < notas.length; i++) {
+            System.out.println("Nota " + (i + 1) + ": " + notas[i]);
+        }
+
+        System.out.printf("Média do aluno: %.2f\n", media);
+
+        scanner.close();
+    }
+}

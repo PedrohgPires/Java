@@ -1,0 +1,12 @@
+1-Leia as 5 notas do aluno
+2-Para i = 0, até 4 faça do passo 3 ao 4
+    3-Escreva ("Nota " + (i + 1) + ": ")
+    4-Leia(notas[i])
+5-Inicializar a variavel (soma <- 0)
+6-Para i = 0 até 4 faça
+    7-Calcule a soma (soma <- soma + notas[i])
+8-Calcule a media (media <- soma / 5)
+9-Escreva ("Notas digitadas:")
+10-Para i = 0 até 4 faça
+    11-Escreva ("Nota " + (i + 1) + ": " + notas[i])
+12-Escreva ("Média do aluno: " + media)
