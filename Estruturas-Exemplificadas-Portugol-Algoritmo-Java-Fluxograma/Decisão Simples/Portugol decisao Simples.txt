@@ -1,0 +1,9 @@
+programa NumeroPositivo
+var
+   numero: inteiro
+inicio
+   leia(numero)
+   se (numero > 0) Então
+      escreva("Número positivo!")
+   fim_se
+fim.
